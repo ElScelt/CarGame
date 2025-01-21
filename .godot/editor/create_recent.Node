@@ -1,0 +1,9 @@
+Camera2D
+TextureRect
+Node2D
+CanvasModulate
+ParallaxBackground
+TileMap
+CollisionShape2D
+Sprite2D
+CharacterBody2D

@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=3 uid="uid://67pack4ebgc3"]
+
+[ext_resource type="PackedScene" uid="uid://dn3mlqqjm2nni" path="res://scene/kart.tscn" id="2_q6bwq"]
+
+[node name="main" type="Node2D"]
+
+[node name="Kart" parent="." instance=ExtResource("2_q6bwq")]
+position = Vector2(432, 181)
+
+[node name="Camera2D2" type="Camera2D" parent="Kart"]

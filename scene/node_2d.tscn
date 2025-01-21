@@ -1,0 +1,19 @@
+[gd_scene load_steps=4 format=3 uid="uid://ywm5ani7ysja"]
+
+[ext_resource type="PackedScene" uid="uid://dn3mlqqjm2nni" path="res://scene/kart.tscn" id="1_jaugd"]
+
+[sub_resource type="Gradient" id="Gradient_0rvcb"]
+
+[sub_resource type="GradientTexture2D" id="GradientTexture2D_yw4oa"]
+gradient = SubResource("Gradient_0rvcb")
+
+[node name="Node2D" type="Node2D"]
+
+[node name="TextureRect" type="TextureRect" parent="."]
+offset_right = 40.0
+offset_bottom = 40.0
+scale = Vector2(12.6716, 8.02573)
+texture = SubResource("GradientTexture2D_yw4oa")
+
+[node name="Kart" parent="." instance=ExtResource("1_jaugd")]
+engine_power = 500

@@ -1,0 +1,27 @@
+[gd_scene load_steps=4 format=3 uid="uid://dn3mlqqjm2nni"]
+
+[ext_resource type="Script" path="res://scene/kart.gd" id="1_empa8"]
+[ext_resource type="Texture2D" uid="uid://ckvrl74vcykdn" path="res://kart.png" id="1_or1ai"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_p7qcc"]
+radius = 6.0
+height = 18.0
+
+[node name="Kart" type="CharacterBody2D"]
+position = Vector2(394, 265)
+collision_layer = 2
+collision_mask = 2
+script = ExtResource("1_empa8")
+is_active = true
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture_filter = 1
+rotation = 1.5708
+scale = Vector2(0.4, 0.4)
+texture = ExtResource("1_or1ai")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CapsuleShape2D_p7qcc")
+
+[node name="Camera2D" type="Camera2D" parent="."]
+zoom = Vector2(3, 3)
