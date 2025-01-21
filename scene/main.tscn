@@ -8,7 +8,7 @@
 [node name="World" parent="." instance=ExtResource("1_e0pkf")]
 
 [node name="Kart" parent="." instance=ExtResource("2_q6bwq")]
-position = Vector2(753, 317)
+position = Vector2(-205, -207)
 
 [node name="Camera2D2" type="Camera2D" parent="Kart"]
 position = Vector2(-5, -3)
