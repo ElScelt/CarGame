@@ -1,12 +1,12 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1737456148
-icon.svg::CompressedTexture2D::4245985361472858859::1737455578::1737455806::1::::<><>::
-kart.png::CompressedTexture2D::5519135295716069211::1737455580::1737456149::1::::<><>::
-map.png::CompressedTexture2D::4888445965358671589::1737455578::1737455806::1::::<><>::
-Sprite-0001.png::CompressedTexture2D::4314790030197839840::1737455580::1737456149::1::::<><>::
-::res://scene/::1737455996
-kart.gd::GDScript::-1::1737455583::0::1::::<>CharacterBody2D<>::
-kart.tscn::PackedScene::8130268708650053806::1737455938::0::1::::<><>::res://scene/kart.gd<>uid://vxb3rn3s61o7::::res://temp art/kart.png
-main.tscn::PackedScene::2242825117618177120::1737455938::0::1::::<><>::uid://c018ohh8chg7r::::res://scene/world.tscn<>uid://dn3mlqqjm2nni::::res://scene/kart.tscn
-node_2d.tscn::PackedScene::1730730756122104698::1737455938::0::1::::<><>::uid://dn3mlqqjm2nni::::res://scene/kart.tscn
-world.tscn::PackedScene::6583265321797934497::1737455938::0::1::::<><>::uid://g7ydp3ujtyfa::::res://temp art/Sprite-0001.png
+::res://::1737456572
+icon.svg::CompressedTexture2D::4245985361472858859::1737456357::1737456431::1::::<><>::
+kart.png::CompressedTexture2D::5519135295716069211::1737456357::1737456431::1::::<><>::
+map.png::CompressedTexture2D::4888445965358671589::1737456357::1737456431::1::::<><>::
+README.md::TextFile::-1::1737456357::0::1::::<><>::
+Sprite-0001.png::CompressedTexture2D::4314790030197839840::1737456357::1737456431::1::::<><>::
+::res://scene/::1737456565
+kart.gd::GDScript::-1::1737456357::0::1::::<>CharacterBody2D<>::
+kart.tscn::PackedScene::8130268708650053806::1737456564::0::1::::<><>::res://scene/kart.gd<>uid://ckvrl74vcykdn::::res://kart.png
+main.tscn::PackedScene::2242825117618177120::1737456564::0::1::::<><>::uid://dn3mlqqjm2nni::::res://scene/kart.tscn
+world.tscn::PackedScene::6583265321797934497::1737456565::0::1::::<><>::

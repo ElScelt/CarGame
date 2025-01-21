@@ -4,24 +4,29 @@
 [ext_resource type="Texture2D" uid="uid://ckvrl74vcykdn" path="res://kart.png" id="1_or1ai"]
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_p7qcc"]
-radius = 6.0
-height = 18.0
+radius = 9.0
 
 [node name="Kart" type="CharacterBody2D"]
 position = Vector2(394, 265)
 collision_layer = 2
 collision_mask = 2
 script = ExtResource("1_empa8")
+steering_angle = 40
+engine_power = 150
+max_speed_reverse = 1
+slip_speed = 0
+traction_fast = 1.0
 is_active = true
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
 texture_filter = 1
 rotation = 1.5708
-scale = Vector2(0.4, 0.4)
+scale = Vector2(0.7, 0.7)
 texture = ExtResource("1_or1ai")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+rotation = 1.5708
 shape = SubResource("CapsuleShape2D_p7qcc")
 
 [node name="Camera2D" type="Camera2D" parent="."]
-zoom = Vector2(3, 3)
+zoom = Vector2(1.8, 1.8)

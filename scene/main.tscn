@@ -1,10 +1,15 @@
-[gd_scene load_steps=2 format=3 uid="uid://67pack4ebgc3"]
+[gd_scene load_steps=3 format=3 uid="uid://67pack4ebgc3"]
 
+[ext_resource type="PackedScene" uid="uid://c018ohh8chg7r" path="res://scene/world.tscn" id="1_e0pkf"]
 [ext_resource type="PackedScene" uid="uid://dn3mlqqjm2nni" path="res://scene/kart.tscn" id="2_q6bwq"]
 
 [node name="main" type="Node2D"]
 
+[node name="World" parent="." instance=ExtResource("1_e0pkf")]
+
 [node name="Kart" parent="." instance=ExtResource("2_q6bwq")]
-position = Vector2(432, 181)
+position = Vector2(753, 317)
 
 [node name="Camera2D2" type="Camera2D" parent="Kart"]
+position = Vector2(-5, -3)
+zoom = Vector2(0.5, 0.5)
