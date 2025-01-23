@@ -1,3 +1,2 @@
-res://scene/world.tscn
-res://scene/main.tscn
 res://scene/kart.tscn
+res://scene/kart.gd

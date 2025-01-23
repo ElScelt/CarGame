@@ -11,12 +11,6 @@ position = Vector2(394, 265)
 collision_layer = 2
 collision_mask = 2
 script = ExtResource("1_empa8")
-steering_angle = 40
-engine_power = 150
-max_speed_reverse = 1
-slip_speed = 0
-traction_fast = 1.0
-is_active = true
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
 texture_filter = 1
