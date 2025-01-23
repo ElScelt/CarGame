@@ -9,6 +9,7 @@
 [node name="World" parent="." instance=ExtResource("1_e0pkf")]
 
 [node name="Node2D" parent="." instance=ExtResource("1_05n2o")]
+visibility_layer = 0
 
 [node name="Kart" parent="." instance=ExtResource("2_q6bwq")]
 position = Vector2(-205, -207)

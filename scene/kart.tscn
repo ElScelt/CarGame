@@ -13,8 +13,6 @@ collision_mask = 6
 script = ExtResource("1_empa8")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
-light_mask = 7
-visibility_layer = 7
 texture_filter = 1
 rotation = 1.5708
 scale = Vector2(0.7, 0.7)
