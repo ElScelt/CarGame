@@ -1,4 +1,12 @@
+res://button.gd
+res://scene/world.tscn
+res://scene/area_2d.gd
+res://scene/collision_shape_2d.gd
+res://scene/world.gd
+res://scene/TitleScreen.tscn
 res://scene/main.tscn
 res://scene/kart.tscn
-res://scene/world.tscn
 res://scene/collision.tscn
+res://scene/node_2d.gd
+res://scene/finish_area.gd
+res://scene/title_screen.gd
