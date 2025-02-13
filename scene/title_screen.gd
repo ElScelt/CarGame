@@ -7,4 +7,4 @@ func _ready() -> void:
 
 func _on_start_button_pressed() -> void:
 	# Change to the main game scene
-	get_tree().change_scene_to_file("res://scene/world.tscn")  # Adjust path to match your scene location
+	get_tree().change_scene_to_file("res://scene/main.tscn")  # Adjust path to match your scene location

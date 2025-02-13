@@ -9,3 +9,5 @@
 
 [node name="Node2D" parent="." instance=ExtResource("1_05n2o")]
 visibility_layer = 0
+
+[node name="Node2D2" parent="." instance=ExtResource("1_05n2o")]
